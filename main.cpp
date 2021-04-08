@@ -21,7 +21,7 @@
 int main()
 {
     while (true) {
-        printf("%s\n", __DATE__);
+        printf("%s\r\n", __DATE__);
         ThisThread::sleep_for(500ms);
     }
 }
